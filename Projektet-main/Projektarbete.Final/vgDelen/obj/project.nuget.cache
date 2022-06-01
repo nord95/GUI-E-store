@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "+RWmrqbX02WvJ3/hdejzmYy71rG2wgWH+EO9A45UEyExupDoY/UNInbMBOk2XdvzWtugz1DgAFt9LAHF1OgX+w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\anton\\Downloads\\Projektet-main\\Projektet-main\\Projektarbete.Final\\vgDelen\\vgDelen.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\anton\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.24\\microsoft.netcore.app.host.win-x64.3.1.24.nupkg.sha512"
+  ],
+  "logs": []
+}

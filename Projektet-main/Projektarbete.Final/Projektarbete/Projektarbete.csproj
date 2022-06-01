@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+ <ItemGroup>
+   <None Remove="ecommerce.jpg" />
+   <None Remove="Products.csv" />
+   <None Remove="Voucher.csv" />
+   <None Remove="webIcon.jpg" />
+ </ItemGroup>
+ <ItemGroup>
+     <Content Include="Pictures\**">
+         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Content>
+     <Content Include="Products.csv">
+       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+     </Content>
+   <Content Include="Voucher.csv">
+     <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+   </Content>
+ </ItemGroup>
+
+</Project>
